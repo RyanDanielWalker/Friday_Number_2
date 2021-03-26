@@ -13,3 +13,20 @@
 #survey {
   display: none;
 }
+
+#name {
+  text-align: center;
+}
+
+#card1 {
+  margin: auto;
+  width: 65vw;
+  margin-top: 15vw;
+  padding: 2px 4px 4px 4px;
+  display: block;
+}
+
+#person1 {
+  margin: auto;
+  width: 35%;
+}
