@@ -24,8 +24,9 @@ $(document).ready(function(){
     $(".userName").text(name);
     
     if (name) {
-      $("#survey").fadeIn();
-    } else {
+      $("#survey").fadeIn() + $("#name").fadeOut();
+    }
+    else {
       alert("Please enter a name!");
     }
     
