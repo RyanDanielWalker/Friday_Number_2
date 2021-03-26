@@ -16,21 +16,26 @@ $(document).ready(function(){
 
     const result = $("#output").text(number1 + number2 + number3 + number4 + number5)
 
-    // if (result < 5) {
-    //   $(#).show();
-    // }
-    // else if (result )
+  });
 
-
-
-
-
-
+  $("#name").submit(function(event){
+    const name = $("input#person1").val();
     
+    $(".userName").text(name);
     
-    
-    
+    event.preventDefault();
     
   });
+    
+
+    
+
+
+
+
+
+
+    
+    
 
 });
