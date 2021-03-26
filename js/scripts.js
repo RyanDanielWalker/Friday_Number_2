@@ -22,12 +22,17 @@ $(document).ready(function(){
     const name = $("input#person1").val();
     
     $(".userName").text(name);
-    $()
+    
+    if (name) {
+      $("#survey").fadeIn();
+    } else {
+      alert("Please enter a name!");
+    }
     
     event.preventDefault();
-    
   });
-    
+  
+  
 
     
 
