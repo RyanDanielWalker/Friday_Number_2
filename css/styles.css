@@ -11,10 +11,10 @@
 }
 
 #survey {
-  /* display: none; */
   text-align: center;
-
+  display: block;
 }
+
 
 #name {
   text-align: center;
@@ -38,11 +38,11 @@
 }
 
 #surveyCard {
+  display: none;
   margin: auto;
   width: 65vw;
   margin-top: 15vw;
   padding: 10px 10px 10px 10px;
-  display: block;
 }
 
 #surveyIntro {

@@ -1,6 +1,6 @@
-function add(number1, number2, number3, number4, number5) {
-  return number1 + number2 + number3 + number4 + number5 
-}
+// function add(number1, number2, number3, number4, number5) {
+//   return number1 + number2 + number3 + number4 + number5 
+// }
 
 
 
@@ -15,15 +15,15 @@ $(document).ready(function(){
     const number4 = parseInt($("#number4").val());
     const number5 = parseInt($("#number5").val());
     const result = (number1 + number2 + number3 + number4 + number5);
-    const surveyFade = $("#surveyCard").fadeOut();
+    
   
     
     if (result <= 5) {
-      $("#ruby").fadeIn() + surveyFade;
+      $("#ruby").fadeIn() + $("#surveyCard").fadeOut();
     } else if (result > 5 && result <= 10) {
-      $("#javascript").fadeIn() + surveyFade;
+      $("#javascript").fadeIn() + $("#surveyCard").fadeOut();
     } else if (result > 10) {
-      $("#cSharp").fadeIn() + surveyFade ;
+      $("#cSharp").fadeIn() + $("#surveyCard").fadeOut();
     }
 
     
@@ -32,20 +32,20 @@ $(document).ready(function(){
 
   });
 
-  // $("#name").submit(function(event){
-  //   const name = $("input#person1").val();
+  $("#name").submit(function(event){
+    const name = $("input#person1").val();
     
-  //   $(".userName").text(name);
+    $(".userName").text(name);
     
-  //   if (name) {
-  //     $("#survey").fadeIn() + $("#name").fadeOut();
-  //   }
-  //   else {
-  //     alert("Please enter a name!");
-  //   }
+    if (name) {
+      $("#surveyCard").fadeIn() + $("#name").fadeOut();
+    }
+    else {
+      alert("Please enter a name!");
+    }
     
-  //   event.preventDefault();
-  // });
+    event.preventDefault();
+  });
   
   
 
