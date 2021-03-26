@@ -1,6 +1,4 @@
-// function add() {
-//   return 
-// }
+
 
 
 
@@ -16,14 +14,23 @@ $(document).ready(function(){
     const number4 = parseInt($("#number4").val());
     const number5 = parseInt($("#number5").val());
 
-    
+    const result = $("#output").text(number1 + number2 + number3 + number4 + number5)
+
+    // if (result < 5) {
+    //   $(#).show();
+    // }
+    // else if (result )
+
+
+
+
 
 
     
     
     
     
-    $("#output").text();
+    
   });
 
 });
