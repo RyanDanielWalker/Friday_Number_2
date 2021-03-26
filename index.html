@@ -9,58 +9,76 @@
 </head>
 <body>
 
-  <form id="name">
+  <form id="name"><!---- Switch this so <div> is outside form ---->
     <div class="card" id="card1">
-      <h1>Hi there!</h1>
-      <p>It looks like you want to learn how to code, but you aren't sure which programming language to learn first. Let me help you with that! We'll need to gather some information to determine your compatibility. </p>
+      <h1 id="greeting">Hi there!</h1>
+      <p>It looks like you want to learn how to code, but you aren't sure which programming language to learn first.</p>
+      <p><strong>Let me help you with that!</strong></p> 
+      <p>We'll need to gather some information to determine your compatibility. </p>
       <p>First, let's start with your name.</p>
       <div class="form-group">
-        <!-- <label for="formGroupExampleInput">Enter name</label> --> 
         <input type="text" class="form-control" id="person1" placeholder="Your name here">
       </div>
       <button type="submit" class="btn btn-outline-success" id="submit1">Submit</button>  
     </div>
   </form>
   
-  <form id="survey">
-    <h1>Do you think disco ever really died?</h1>
-    <select class="form-control" id="number1">
-      <option value="" selected disabled>Please select</option>
-      <option value="2">Absolutely not</option>
-      <option value="2">Absolutely not</option>
-      <option value="2">Absolutely not</option>
-    </select>
-    <h1>Which club are you using from the light rough 165 yards out?</h1>
-    <select class="form-control" id="number2">
-      <option value="1">Hybrid 3 wood</option>
-      <option value="2">Punch out into safety with 4 iron</option>
-      <option value="3">No fear, full-swing 7 iron</option>
-    </select>
-    <h1>How clear is your beverage?</h1>
-    <select class="form-control" id="number3">
-      <option value="1">Soda only for me</option>
-      <option value="2">Clear, but i prefer bubbles</option>
-      <option value="3">Straight H20</option>
-    </select>
-    <h1>Saxophone or trumpet?</h1>
-    <select class="form-control" id="number4">
-      <option value="1">No, I hate jazz</option>
-      <option value="2">Miles Davis, Kind of Blue</option>
-      <option value="3">John Coltrane, A Love Supreme</option>
-    </select>
-    <h1>Does pineapple belong on pizza?</h1>
-    <select class="form-control" id="number5">
-      <option value="0">Anyone who would willingly assault their pallet like that does not deserve to partake in the pleasures of exquisite cuisine dining pretention full of myself opinion my opinion matters listen to me</option>
-      <option value="2">Whatever makes you happy</option>
-    </select>
+  <form id="survey"> <!---- Switch this so <div> is outside form ---->
+    <div class="card">
+      <p>Next, let's go ahead and complete this short survey that will help us pair you with the programming language that is right for you!
+        <br>Just hit the 'Submit' button when you have made a selection in all of the fields to see your results.</p>
+        <div class="card">
+          <h1>Which club are you using from the light rough 165 yards out?</h1>
+          <select class="form-control" id="number2">
+            <option value="1">Hybrid 3 wood</option>
+            <option value="2">Punch out into safety with 4 iron</option>
+            <option value="3">No fear, full-swing 7 iron</option>
+          </select>
+        </div>
+        <div class="card">
+          <h1>Do you think disco ever really died?</h1>
+          <select class="form-control" id="number1">
+            <option value="" selected disabled>Please select</option>
+            <option value="2">Absolutely not</option>
+            <option value="2">Absolutely not</option>
+            <option value="2">Absolutely not</option>
+          </select>
+        </div>
+        <div class="card">
+          <h1>How clear is your beverage?</h1>
+          <select class="form-control" id="number3">
+            <option value="1">Soda only for me</option>
+            <option value="2">Clear, but i prefer bubbles</option>
+            <option value="3">Straight H20</option>
+          </select>
+        </div>
+        <div class="card">
+          <h1>Saxophone or trumpet?</h1>
+          <select class="form-control" id="number4">
+            <option value="1">No, I hate jazz</option>
+            <option value="2">Miles Davis, Kind of Blue</option>
+            <option value="3">John Coltrane, A Love Supreme</option>
+          </select>
+        </div>
+        <div class="card">
+          <h1>Does pineapple belong on pizza?</h1>
+          <select class="form-control" id="number5">
+            <option value="0">Anyone who would willingly assault their pallet like that does not deserve to partake in the pleasures of exquisite cuisine dining pretention full of myself opinion my opinion matters listen to me</option>
+            <option value="2">Whatever makes you happy</option>
+          </select>
+        </div>
+    
+      
 
       
       
       
       
       
-    <button type="submit" class="btn btn-outline-success">Submit</button>
+      <button type="submit" class="btn btn-outline-success">Submit</button>
+    </div>
   </form>
+
 
     <div id="output">
 
