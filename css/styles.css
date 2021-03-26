@@ -11,7 +11,9 @@
 }
 
 #survey {
-  display: none;
+  /* display: none; */
+  text-align: center;
+
 }
 
 #name {
@@ -33,4 +35,18 @@
 #person1 {
   margin: auto;
   width: 35%;
+}
+
+#surveyCard {
+  margin: auto;
+  width: 65vw;
+  margin-top: 15vw;
+  padding: 10px 10px 10px 10px;
+  display: block;
+}
+
+#surveyIntro {
+  margin:auto;
+  width: 65%;
+  margin-bottom: 10px;
 }
