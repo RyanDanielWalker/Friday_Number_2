@@ -9,23 +9,21 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-
   <div class="shadow p-3 mb-5 bg-white rounded" id="card1">
     <form id="name">
       <h1 id="greeting">Which programming language am I?</h1><hr>
-      <p id="greetP1">It looks like you want to learn how to code, but you aren't sure which programming language to learn first. <strong>Let me help you with that!</strong>
+      <p id="greetP1">It looks like you want to learn how to code, but you aren't sure which programming language to learn first. I can help you with that!
         <br>I'll need to gather some information that will help me to pair you with the programming language that is right for you.</p><hr width="25%">
-        <p style="text-align: center;">First, let's start with your name.</p>
+        <h5 style="text-align: center;">First, let's start with your name.</h5>
         <div class="form-group">
           <input type="text" class="form-control" id="person1" placeholder="Type your name here" style="text-align: center;">
         </div>
         <button type="submit" class="btn btn-outline-secondary" id="submit1">Submit</button>  
     </form>
   </div>
-  
   <div class="shadow p-3 mb-5 bg-white rounded" id="surveyCard">  
     <form id="survey"> 
-      <p id="surveyIntro">Next, let's complete this short survey that will help determine your compatibility <hr>
+      <p id="surveyIntro">Alright, <span class="userName"></span>. Let's complete this short survey that will help determine your compatibility.<hr>
         <div class="card questionCard">
           <h3>Which club are you swinging from the light rough 165 yards out?</h3>
           <select class="form-control" id="number1">
@@ -35,7 +33,6 @@
             <option value="3">No fear, full-swing with the 7 iron</option>
           </select>
         </div>
-        
         <div class="card questionCard">
           <h3>How clear is your beverage?</h3>
           <select class="form-control" id="number2">
@@ -65,52 +62,63 @@
           <h3>Saxophone or Trumpet?</h3>
           <select class="form-control" id="number4">
             <option value="" selected disabled></option>
-            <option value="0">Neither</option>
+            <option value="1">Neither</option>
             <option value="3">Miles Davis, Bitches Brew</option>
             <option value="3">John Coltrane, A Love Supreme</option>
+            <option value="3">Lee Morgan, The Sidewinder</option>
+            <option value="3">David Sanborn as featured in David Bowie's "Young Americans"</option>
           </select>
         </div>
         <div class="card questionCard">
           <h3>Does pineapple belong on pizza?</h3>
           <select class="form-control" id="number5">
             <option value="" selected disabled></option>
-            <option value="0">Opinion.</option>
-            <option value="3">Whatever makes you happy</option>
+            <option value="0">Opinion</option>
+            <option value="0">Opinion</option>
           </select>
         </div>
         <p id="surveyP2">When you have made a selection in all of the available fields, click 'Submit' to see your results.</p>
         <button type="submit" class="btn btn-outline-secondary">Submit</button>
       </form>
     </div> 
-    
-    
-
-      
-      
-      
-  
-
-  
     <div class="shadow p-3 mb-5 bg-white rounded" id="ruby">
       <h3>Congratulations, <span class="userName"></span>!</h3><hr>
-      <p class="resultP">Based on the information that you have provided, I have determined that the best programming language for you is Ruby!</p><hr width="50%">
+      <p class="resultP">Based on the information that you have provided, I have determined that the best programming language for you is: </p>
+      <p class="emphasisAnswer">Ruby!</p>
+      <hr width="50%">
       <p><a href="https://www.ruby-lang.org/en/">Here</a> is all of the information you will need to know. Happy coding!</p>
     </div>
- 
-
-  <div class="shadow p-3 mb-5 bg-white rounded" id="javascript">
-    <h3>Congratulations, <span class="userName"></span>!</h3><hr>
-    <p class="resultP">Based on the information that you have provided, I have determined that the best programming language for you is Javascript!</p><hr width="50%">
-    <p><a href="https://www.javascript.com/">Here</a> is all of the information you will need to know. Happy coding!</p>
-  </div>
-
-  <div class="shadow p-3 mb-5 bg-white rounded" id="cSharp">
-    <h3>Congratulations, <span class="userName"></span>!</h3><hr>
-    <p class="resultP">Based on the information that you have provided, I have determined that the best programming language for you is: 
-      <br><span class="emphasisAnswer">C#!</span></p>
-    <hr width="50%"><p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/">Here</a> is all of the information you will need to know. Happy coding!</p>
-  </div>
-
-
+    <div class="shadow p-3 mb-5 bg-white rounded" id="javascript">
+      <h3>Congratulations, <span class="userName"></span>!</h3><hr>
+      <p class="resultP">Based on the information that you have provided, I have determined that the best programming language for you is:</p>
+      <p class="emphasisAnswer">Javascript!</p>
+      <hr width="50%">
+      <p><a href="https://www.javascript.com/">Here</a> is all of the information you will need to know. Happy coding!</p>
+    </div>
+    <div class="shadow p-3 mb-5 bg-white rounded" id="cSharp">
+      <h3>Congratulations, <span class="userName"></span>!</h3><hr>
+      <p class="resultP">Based on the information that you have provided, I have determined that the best programming language for you is:</p>
+      <p class="emphasisAnswer">C#!</p>
+      <hr width="50%">
+      <p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/">Here</a> is all of the information you will need to know. Happy coding!</p>
+    </div>
 </body>
 </html>
+
+ 
+
+
+
+
+        
+  
+    
+    
+
+      
+      
+      
+  
+
+  
+

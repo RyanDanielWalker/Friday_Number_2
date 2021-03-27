@@ -1,38 +1,33 @@
 body {
   font-family: serif;
 }
-
 #ruby {
-  /* display: none; */
+  display: none;
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
   margin-top: 15vw;
 }
-
 #javascript {
-  /* display: none; */
+  display: none;
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
   margin-top: 15vw;
 }
-
 #cSharp {
-  /* display: none; */
+  display: none;
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
   margin-top: 15vw;
 }
-
 #survey {
   text-align: center;
   display: block;
 }
-
 #card1 {
-  display: none;
+  /* display: none; */
   text-align: center;
   margin: auto;
   width: 65vw;
@@ -40,25 +35,21 @@ body {
   padding: 15px 4px 15px 4px;
   display: block;
 }
-
 #greeting {
   text-align: center;
   font-family: 'Cormorant Garamond';
 }
-
 #person1 {
   margin: auto;
   width: 35%;
 }
-
 #surveyCard {
-  /* display: none; */
+  display: none;
   margin: auto;
   width: 60vw;
   margin-top: 12vw;
   padding: 10px 10px 10px 10px;
 }
-
 #surveyIntro {
   font-size: 2.1em;
   font-family: 'Cormorant Garamond';
@@ -66,17 +57,32 @@ body {
   width: 85%;
   margin-bottom: 7px;
 }
-
 .questionCard {
   margin: 10px 0px 10px 0px;
   background-color: rgb(236, 225, 225);
 }
-
 #surveyP2 { 
   color: lightgrey;
   font-size: 1.2em;
   margin-bottom: 10px;
   margin-top: 0px;
-};
+}
+.emphasisAnswer {
+  text-align: center;
+  font-size: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
