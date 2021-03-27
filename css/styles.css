@@ -1,8 +1,10 @@
 body {
   font-family: serif;
+  text-align: center;
 }
 #ruby {
   display: none;
+  text-align: center;
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
@@ -22,13 +24,7 @@ body {
   width: 50vw;
   margin-top: 15vw;
 }
-#survey {
-  text-align: center;
-  display: block;
-}
 #card1 {
-  /* display: none; */
-  text-align: center;
   margin: auto;
   width: 65vw;
   margin-top: 15vw;
@@ -36,7 +32,6 @@ body {
   display: block;
 }
 #greeting {
-  text-align: center;
   font-family: 'Cormorant Garamond';
 }
 #person1 {
@@ -68,11 +63,7 @@ body {
   margin-top: 0px;
 }
 .emphasisAnswer {
-  text-align: center;
   font-size: 3em;
-}
-.greetP1 {
-  text-align: center;
 }
 
 
