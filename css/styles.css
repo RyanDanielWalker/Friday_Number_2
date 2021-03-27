@@ -6,6 +6,11 @@ body {
 
 #ruby {
   display: none;
+  margin:auto;
+  padding: 15px 15px 10px 15px;
+  width: 50vw;
+  margin-top: 15vw;
+
 }
 
 #javascript {
@@ -48,8 +53,8 @@ body {
 #surveyCard {
   display: none;
   margin: auto;
-  width: 65vw;
-  margin-top: 15vw;
+  width: 60vw;
+  margin-top: 12vw;
   padding: 10px 10px 10px 10px;
 }
 
