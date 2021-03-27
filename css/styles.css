@@ -1,3 +1,9 @@
+body {
+  font-family: serif;
+}
+
+
+
 #ruby {
   display: none;
 }
@@ -16,20 +22,22 @@
 }
 
 
-#name {
+/* #name {
   text-align: center;
-}
+} */
 
 #card1 {
+  text-align: center;
   margin: auto;
   width: 65vw;
   margin-top: 15vw;
-  padding: 2px 4px 4px 4px;
+  padding: 15px 4px 15px 4px;
   display: block;
 }
 
 #greeting {
   text-decoration: underline;
+  font-family: 'Abril Fatface', serif;
 }
 
 #person1 {
@@ -49,4 +57,8 @@
   margin:auto;
   width: 65%;
   margin-bottom: 10px;
+}
+
+.questionCard {
+  margin: 5px 0px 5px 0px;
 }

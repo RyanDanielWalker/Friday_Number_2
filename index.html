@@ -4,6 +4,7 @@
   <title>Programming Language Suggester</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
 </head>
@@ -11,13 +12,13 @@
 
   <form id="name">
     <div class="card" id="card1">
-      <h1 id="greeting">Hi there!</h1>
+      <h1 id="greeting">Hi There!</h1>
       <p>It looks like you want to learn how to code, but you aren't sure which programming language to learn first.</p>
-      <p><strong>Let me help you with that!</strong></p> 
-      <p>We'll need to gather some information to determine your compatibility. </p>
-      <p>First, let's start with your name.</p>
+      <p><strong>Let me help you with that!</strong>
+        <br>We'll need to gather some information to determine your compatibility. 
+        <br>First, let's start with your name.</p>
       <div class="form-group">
-        <input type="text" class="form-control" id="person1" placeholder="Your name here">
+        <input type="text" class="form-control" id="person1" placeholder="Type your name here">
       </div>
       <button type="submit" class="btn btn-outline-success" id="submit1">Submit</button>  
     </div>
@@ -26,20 +27,20 @@
   <div class="card" id="surveyCard">  
     <form id="survey"> 
       <p id="surveyIntro">Next, let's go ahead and complete this short survey that will help us pair you with the programming language that is right for you! Just hit the 'Submit' button when you have made a selection in all of the fields to see your results.</p>
-        <div class="card">
+        <div class="card questionCard">
           <h2>Which club are you using from the light rough 165 yards out?</h1>
-            <select class="form-control" id="number2">
-              <option value="" selected disabled>Please select</option>
-              <option value="1">Hybrid 3 wood</option>
-              <option value="2">Punch out into safety with 5 iron</option>
-              <option value="3">No fear, full-swing 7 iron</option>
-            </select>
-          </div>
+          <select class="form-control" id="number2">
+            <option value="" selected disabled>Please select an answer</option>
+            <option value="1">Hybrid 3 wood</option>
+            <option value="2">Punch out into safety with 5 iron</option>
+            <option value="3">No fear, full-swing 7 iron</option>
+          </select>
+        </div>
         
-      <div class="card">
+      <div class="card questionCard">
         <h2>Do you think disco ever really died?</h1>
         <select class="form-control" id="number1">
-          <option value="" selected disabled>Please select</option>
+          <option value="" selected disabled>Please select an answer</option>
           <option value="2">Absolutely not</option>
           <option value="2">Absolutely not</option>
           <option value="2">Absolutely not</option>
@@ -50,29 +51,29 @@
           <option value="2">Absolutely not</option>
         </select>
       </div>
-      <div class="card">
+      <div class="card questionCard">
         <h2>How clear is your beverage?</h1>
         <select class="form-control" id="number3">
-          <option value="" selected disabled>Please select</option>
+          <option value="" selected disabled>Please select an answer</option>
           <option value="1">Only Brown soda for me</option>
           <option value="2">Clear, but i prefer bubbles</option>
           <option value="3">Straight H20</option>
         </select>
       </div>
-      <div class="card">
+      <div class="card questionCard">
         <h2>Saxophone or trumpet?</h1>
         <select class="form-control" id="number4">
-          <option value="" selected disabled>Please select</option>
+          <option value="" selected disabled>Please select an answer</option>
           <option value="1">No, I hate jazz</option>
           <option value="3">Miles Davis, Kind of Blue</option>
           <option value="3">John Coltrane, A Love Supreme</option>
         </select>
       </div>
-      <div class="card">
+      <div class="card questionCard">
         <h2>Does pineapple belong on pizza?</h1>
         <select class="form-control" id="number5">
-          <option value="" selected disabled>Please select</option>
-          <option value="0">Anyone who would willingly assault their pallet like that does not deserve to partake in the pleasures of exquisite cuisine dining pretention full of myself opinion my opinion matters listen to me</option>
+          <option value="" selected disabled>Please select an answer</option>
+          <option value="0">Anyone who would willingly assault their palate like that does not deserve to partake in the pleasures of exquisite cuisine dining opinion full of myself smug my opinion matters listen to me</option>
           <option value="3">Whatever makes you happy</option>
         </select>
       </div>
