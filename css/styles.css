@@ -51,7 +51,7 @@ body {
 }
 
 #surveyCard {
-  display: none;
+  /* display: none; */
   margin: auto;
   width: 60vw;
   margin-top: 12vw;
@@ -59,13 +59,15 @@ body {
 }
 
 #surveyIntro {
+  font-size: 2.1em;
+  font-family: sans-serif;
   margin:auto;
-  width: 65%;
-  margin-bottom: 10px;
+  width: 85%;
+  margin-bottom: 7px;
 }
 
 .questionCard {
   margin: 10px 0px 10px 0px;
+  background-color: whitesmoke;
 }
-
 
