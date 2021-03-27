@@ -8,46 +8,45 @@ $(document).ready(function(){
     const number5 = parseInt($("#number5").val());
     const result = (number1 + number2 + number3 + number4 + number5);
     if (result <= 5) {
-      $("#ruby").fadeIn() + $("#surveyCard").fadeOut();
+      $("#ruby").fadeIn(1750) + $("#surveyCard").fadeOut(175);
     } else if (result > 5 && result <= 10) {
-      $("#javascript").fadeIn() + $("#surveyCard").fadeOut();
+      $("#javascript").fadeIn(1750) + $("#surveyCard").fadeOut(175);
     } else if (result > 10) {
-      $("#cSharp").fadeIn() + $("#surveyCard").fadeOut();
+      $("#cSharp").fadeIn(1750) + $("#surveyCard").fadeOut(175);
     }
   });
   $("#name").submit(function(event){
-    const name = $("input#person1").val();
     event.preventDefault();
+    const name = $("input#person1").val();
     if (name) {
-      $("#surveyCard").fadeIn(1000) + $("#name").fadeOut(100);
+      $("#surveyCard").fadeIn(1750) + $("#name").fadeOut(175);
     }
     else {
-      alert("Please enter a name!");
-    }
-    $(".userName").text(name);
-  });
-    
-  
-  
-
-    
-  
-
-
-    
-    
-    
-  
-  
-
-    
-
-
-
-
-
-
-    
-    
-
+    alert("Please enter a name!");
+  }
+  $(".userName").text(name);
 });
+});
+
+
+  
+
+    
+  
+
+
+    
+    
+    
+  
+  
+
+    
+
+
+
+
+
+
+    
+    

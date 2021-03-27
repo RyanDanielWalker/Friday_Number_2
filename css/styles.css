@@ -2,34 +2,34 @@ body {
   font-family: serif;
 }
 
-
-
 #ruby {
   display: none;
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
   margin-top: 15vw;
-
 }
 
 #javascript {
   display: none;
+  margin:auto;
+  padding: 15px 15px 10px 15px;
+  width: 50vw;
+  margin-top: 15vw;
 }
 
 #cSharp {
   display: none;
+  margin:auto;
+  padding: 15px 15px 10px 15px;
+  width: 50vw;
+  margin-top: 15vw;
 }
 
 #survey {
   text-align: center;
   display: block;
 }
-
-
-/* #name {
-  text-align: center;
-} */
 
 #card1 {
   text-align: center;
@@ -65,5 +65,7 @@ body {
 }
 
 .questionCard {
-  margin: 5px 0px 5px 0px;
+  margin: 10px 0px 10px 0px;
 }
+
+
