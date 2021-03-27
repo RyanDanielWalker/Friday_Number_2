@@ -20,11 +20,10 @@ $(document).ready(function(){
     const name = $("input#person1").val();
     if (name) {
       $("#surveyCard").fadeIn(1750) + $("#card1").fadeOut(175);
+    } else {
+      alert("Please enter a name!");
     }
-    else {
-    alert("Please enter a name!");
-  }
-  $(".userName").text(name);
+    $(".userName").text(name);
 });
 });
 
