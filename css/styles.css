@@ -3,7 +3,7 @@ body {
 }
 
 #ruby {
-  display: none;
+  /* display: none; */
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
@@ -11,7 +11,7 @@ body {
 }
 
 #javascript {
-  display: none;
+  /* display: none; */
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
@@ -19,7 +19,7 @@ body {
 }
 
 #cSharp {
-  display: none;
+  /* display: none; */
   margin:auto;
   padding: 15px 15px 10px 15px;
   width: 50vw;
@@ -38,12 +38,12 @@ body {
   width: 65vw;
   margin-top: 15vw;
   padding: 15px 4px 15px 4px;
-  /* display: block; */
+  display: block;
 }
 
 #greeting {
-  text-decoration: underline;
-  font-family: 'Abril Fatface', serif;
+  text-align: center;
+  font-family: 'Cormorant Garamond';
 }
 
 #person1 {
@@ -61,7 +61,7 @@ body {
 
 #surveyIntro {
   font-size: 2.1em;
-  font-family: sans-serif;
+  font-family: 'Cormorant Garamond';
   margin:auto;
   width: 85%;
   margin-bottom: 7px;
@@ -78,3 +78,5 @@ body {
   margin-bottom: 10px;
   margin-top: 0px;
 };
+
+

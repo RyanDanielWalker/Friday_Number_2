@@ -19,7 +19,7 @@ $(document).ready(function(){
     event.preventDefault();
     const name = $("input#person1").val();
     if (name) {
-      $("#surveyCard").fadeIn(1750) + $("#card1").fadeOut(175);
+      $("#card1").fadeOut(175) + $("#surveyCard").fadeIn(1750);
     } else {
       alert("Please enter a name!");
     }
